@@ -1,0 +1,291 @@
+/**index.wxss**/
+.banner{
+	position: relative;
+  width: 750rpx;
+  height: 372rpx;
+}
+.banner .img{
+  width: 100%;
+  height: 100%;
+}
+.banner .enquiry{
+	position: absolute;
+	bottom: -140rpx;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 694rpx;
+	height: 242rpx;
+	border-radius: 16rpx;
+  /* background-color: #fff; */
+	background:#fff url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_bg_inquiry%402x.png") no-repeat center;
+	background-size: 100% 100%;
+  box-shadow: 0 0 10rpx 2rpx #dfdfdf;
+}
+.enquiry .tit{
+	font-size: 24rpx;
+	text-align: center;
+	margin-top: 46rpx;
+}
+.enquiry .tit .color{
+	color: #ff6305;
+}
+.enquiry .tit_small{
+  font-size: 18rpx;
+  color: #ababab;
+  text-align: center;
+  margin-top: 15rpx;
+}
+.enquiry .btn{
+  width: 584rpx;
+  height: 62rpx;
+  margin: 24rpx auto;
+  background: linear-gradient(right, #ffa800, #ff6305);
+  background: -webkit-linear-gradient(right, #ffa800, #ff6305);
+  background: -moz-linear-gradient(right, #ffa800, #ff6305);
+  background: -ms-linear-gradient(right, #ffa800, #ff6305);
+  border-radius: 10rpx;
+  box-shadow: 0 0 4rpx #ff6305, 0 0 8rpx #ffa800;
+  text-align: center;
+  line-height: 62rpx;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.main .tit_x{
+	font-size: 30rpx;
+	color: #ff6305;
+	text-align: center;
+}
+.main .line_x{
+	width: 58rpx;
+	height: 2rpx;
+	border-bottom: 1rpx solid #d3d3d3;
+	margin: 20rpx auto;
+}
+.main .name_x{
+  font-size: 24rpx;
+  color: #262626;
+  text-align: center;
+}
+.main .text_x{
+  font-size: 20rpx;
+  color: #808080;
+  line-height: 36rpx;
+  margin-top: 40rpx;
+}
+
+.advantage{
+  background-color: #fff;
+  padding: 180rpx 30rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.show_list{
+  height: 194rpx;
+  margin-top: 54rpx;
+}
+.show_list .img_box,
+.show_list .explain{
+  position: relative;
+  width: 50%;
+  height: 194rpx;
+}
+.show_list .img_box image{
+  width: 100%;
+  height: 100%;
+}
+.show_list .img_box .numb{
+  position: absolute;
+  width: 74rpx;
+  height: 70rpx;
+  background-color: #FF6305;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 38rpx;
+  color: #fff;
+  top: -30rpx;
+}
+.show_list:nth- :nth-of-type(odd) .img_box .numb{
+  left: 0;
+}
+.show_list:nth-child(even) .img_box .numb{
+  right: 0
+}
+.show_list .explain{
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.explain .tit{
+  font-size: 22rpx;
+  color: #232323;
+  text-align: center;
+}
+.explain .tit .color{
+  color: #ff6305;
+}
+
+.explain .text{
+  font-size: 18rpx;
+  color: #898989;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+}
+
+.advantage .btn{
+  width: 380rpx;
+  height: 48rpx;
+  background-color: #efefef;
+  border-radius: 24rpx;
+  font-size: 20rpx;
+  color: #434343;
+  text-align: center;
+  line-height: 48rpx;
+  margin: 42rpx auto 0;
+}
+
+.service,
+.transation,
+.case{
+  background-color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 14rpx;
+}
+.service_r{
+  margin-top: 50rpx;
+}
+.service_list{
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+  padding: 0 20rpx;
+}
+.service_list .img_box{
+  width: 212rpx;
+  height: 204rpx;
+  margin: 0 auto 20rpx;
+}
+.service_list .img_box image{
+  width: 100%;
+  height: 100%;
+}
+.service_list .text{
+  font-size: 18rpx;
+  color: #585858;
+  margin-top: 0;
+  text-align: center;
+}
+
+.transation_r{
+  margin-top: 36rpx;
+}
+.transation_list{
+  display: flex;
+  height: 102rpx;
+}
+.transation_list .left{
+  width: 106rpx;
+  height: 102rpx;
+  margin-left: 30rpx;
+}
+.transation_list .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 102rpx;
+  margin-left: 35rpx;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.transation_list .img_1{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step01%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_2{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step02%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_3{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step03%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_4{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step04%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_5{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step05%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_6{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step06%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .img_7{
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/icon_step07%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.transation_list .text_a{
+  font-size: 20rpx;
+  color: #1d1d1d;
+}
+.transation_list .text_b{
+  font-size: 18rpx;
+  color: #b0b0b0;
+}
+.transation_r .line{
+  width: 0rpx;
+  height: 40rpx;
+  border-left: 4rpx solid #e6e6e6;
+  margin: 20rpx 0 20rpx 82rpx;
+}
+
+.case{
+  margin-bottom: 18rpx; 
+}
+.case_r{
+  margin-top: 40rpx;
+}
+.case_list{
+  margin-bottom: 40rpx;
+}
+.case_list .img_box{
+  position: relative;
+  width: 100%;
+  height: 267rpx;
+  margin-bottom: 26rpx;
+}
+.case_list .img_box image{
+  width: 100%;
+  height: 100%;
+}
+.case_list .text{
+  font-size: 18rpx;
+  color: #505050;
+  line-height: 36rpx;
+}
+.case_list .scheme{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 56rpx;
+  background-color: #E26417;
+  opacity: .8;
+  font-size: 22rpx;
+  color: #fff;
+  line-height: 56rpx;
+  text-align: center;
+}
+
+.case_list .btn{
+  width: 408rpx;
+  height: 46rpx;
+  border: 1px solid #dedede;
+  border-radius: 23rpx;
+  font-size: 20rpx;
+  color: #676767;
+  text-align: center;
+  line-height: 46rpx;
+  margin: 26rpx auto;
+}

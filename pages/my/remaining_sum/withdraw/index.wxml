@@ -1,0 +1,24 @@
+<!--pages/my/remaining_sum/withdraw/index.wxml-->
+<view class="container">
+  <view class="tit">到账银行卡</view>
+  <navigator class="balance clf" url="./choose_card/index">
+    <view class="fl">选择银行卡</view>
+    <view class="fr">
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+  <view class="tit">提现金额</view>
+  <view class="box">
+    <view class="ipt_box">
+      <span class="fl">￥</span>
+      <input type="text" class="ipt fl"></input>
+    </view>
+    <view class="hint">
+      <view class="fl">可提现金额 500.00元</view>
+      <view class="fr color">全部提现</view>
+    </view>
+  </view>
+
+  <view class="btn">立即充值</view>
+</view>
+

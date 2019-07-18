@@ -1,0 +1,23 @@
+<!--pages/my/remaining_sum/log/detail/index.wxml-->
+<view class="container">
+  <view class="type">充值</view>
+  <view class="price">+6200.00</view>
+  <view class="detail">
+    <view class="list clf">
+      <view class="fl left">交易状态</view>
+      <view class="fl right">成功</view>
+    </view>
+    <view class="list clf">
+      <view class="fl left">交易时间</view>
+      <view class="fl right">2019/05/01 08:00:39</view>
+    </view>
+    <view class="list clf">
+      <view class="fl left">交易单号</view>
+      <view class="fl right">54649878913213</view>
+    </view>
+    <view class="list clf remark">
+      <view class="fl left">备注</view>
+      <view class="fl right text">公司运输快递资金</view>
+    </view>
+  </view>
+</view>

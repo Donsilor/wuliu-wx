@@ -1,0 +1,43 @@
+<!--pages/enquiry/index.wxml-->
+<view class="container">
+  <view class="top_bgcolor">
+    <view class="left">
+      <view class="text">免费询价</view>
+      <view class="text">享专业方案定制/报价</view>
+    </view>
+    <view class="btn">
+      <span class="icon">
+        <i class="fl iconfont iconshandian"></i>
+      </span>
+      <span>闪电询价</span>
+    </view>
+  </view>
+
+  <view class="enquiry">
+    <view class="enquiry_list" wx:for="{{enquiry}}" wx:key="">
+      <view class="location clf">
+        <view class="location_l fl over">{{item.from_a}}</view>
+        <view class="line fl"></view>
+        <view class="location_r fl over">{{item.to_a}}</view>
+      </view>
+
+      <view class="text clf">
+        <span class="fl">需求：</span>
+        <span class="demand fl over">{{item.demand}}</span>
+      </view>
+      <view class="text clf">
+        <span class="fl">产品品名：</span>
+        <span class="name fl over">{{item.name}}</span>
+        <span class="fl">计量：</span>
+        <span class="measure fl over">{{item.measure}}</span>
+      </view>
+      <view class="text clf">
+        <span class="remark fl over">{{item.remark}}</span>
+      </view>
+      <view class="date clf">
+        <view class="fl date_r">{{item.time}}</view>
+        <view class="fr">已获报价 <span>{{item.acquire}}</span></view>
+      </view>
+    </view>
+  </view>
+</view>

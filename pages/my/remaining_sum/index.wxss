@@ -1,0 +1,54 @@
+/* pages/my/remaining_sum/index.wxss */
+.box{
+  height: 472rpx;
+  background-color: #fff;
+  padding-top: 80rpx;
+  box-sizing: border-box;
+}
+.box .price{
+  font-size: 72rpx;
+  color: #333;
+  text-align: center;
+}
+.box .text{
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.btn_box{
+  width: 440rpx;
+  height: 60rpx;
+  margin: 60rpx auto;
+}
+.withdraw{
+  width: 180rpx;
+  height: 60rpx;
+  border: 1rpx solid #ff6305;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  color: #ff6305;
+  line-height: 60rpx;
+  text-align: center;
+}
+.top_up{
+  width: 180rpx;
+  height: 60rpx;
+  background-color: #ff6305;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.log{
+  height: 90rpx;
+  background-color: #fff;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: #333;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}

@@ -1,0 +1,63 @@
+/* pages/my/remaining_sum/top_up/index.wxss */
+.tit{
+  height: 76rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 84rpx;
+}
+.balance{
+  height: 100rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+.balance .color{
+  color: #f72c2c;
+}
+.box{
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.box .ipt_box{
+  width: 100%;
+  height: 150rpx;
+  line-height: 150rpx;
+  font-size: 50rpx;
+  color: #333;
+}
+.box .ipt{
+  width: 600rpx;
+  height: 150rpx;
+  margin-left: 30rpx;
+}
+.box .hint{
+  height: 84rpx;
+  font-size: 26rpx;
+  color: #999;
+  line-height: 84rpx;
+  border-top: 1rpx solid #e5e5e5;
+}
+.pay_type{
+  height: 90rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  margin: 60rpx auto;
+  text-align: center;
+  line-height: 80rpx;
+}

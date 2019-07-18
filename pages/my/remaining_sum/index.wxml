@@ -1,0 +1,17 @@
+<!--pages/my/remaining_sum/index.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="price">18888.00</view>
+    <view class="text">账户余额（元）</view>
+    <view class="btn_box clf">
+      <navigator class="fl withdraw" url="./withdraw/index">提现</navigator>
+      <navigator class="fr top_up" url="./top_up/index">充值</navigator>
+    </view>
+  </view>
+  <navigator class="log" url="./log/index">
+    <view class="fl">资金记录</view>
+    <view class="fr">
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+</view>

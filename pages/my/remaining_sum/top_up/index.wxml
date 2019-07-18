@@ -1,0 +1,19 @@
+<!--pages/my/remaining_sum/top_up/index.wxml-->
+<view class="container">
+  <view class="tit">账户可用余额</view>
+  <view class="balance">账户余额（元）：<span class="color">6992.00</span></view>
+  <view class="tit">充值金额</view>
+  <view class="box">
+    <view class="ipt_box">
+      <span class="fl">￥</span>
+      <input type="text" class="ipt fl"></input>
+    </view>
+    <view class="hint">请输入充值金额</view>
+  </view>
+  <view class="tit">支付方式</view>
+  <view class="pay_type">
+    <view class="fl"></view>
+    <view class="fr"></view>
+  </view>
+  <view class="btn">立即充值</view>
+</view>

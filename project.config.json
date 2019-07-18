@@ -1,0 +1,103 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.3",
+	"appid": "wx2301f8c662922b99",
+	"projectname": "wuliu-wx",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "询价大厅",
+					"pathName": "pages/enquiry/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报价大厅",
+					"pathName": "pages/offer/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "余额",
+					"pathName": "pages/my/remaining_sum/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "资金记录",
+					"pathName": "pages/my/remaining_sum/log/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "资金记录详情",
+					"pathName": "pages/my/remaining_sum/log/detail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "充值",
+					"pathName": "pages/my/remaining_sum/top_up/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/my/remaining_sum/withdraw/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

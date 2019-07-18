@@ -1,0 +1,227 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="banner">
+    <image class="img" src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_bannerbg%402x.png"></image>
+  
+    <view class="enquiry">
+      <view class="tit">免费<span class="color">闪电</span>询价</view>
+      <view class="tit_small">一分钟填表，享专业方案定制/报价</view>
+      <view class="btn">闪电询价</view>
+    </view>
+  </view>
+
+  <view class="main">
+    <!-- 我们的优势 -->
+    <view class="advantage">
+      <view class="tit_x">OUR ADVANTAGE</view>
+      <view class="line_x"></view>
+      <view class="name_x">我们的优势</view>
+      <view class="text_x">专注就是优势，经过多年磨励，我们已塑造出一支具有专业高度的物流团队，并建立了多条便捷物流专线。我们凭借成熟的运作模式，依托强大的物流网络，丰富的运输资源，一流的信息系统，以及良好的风险管控机制，为客户提供优质的服务。</view>
+
+      <view class="show_list clf">
+        <view class="fl img_box">
+          <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_img01%402x.png" class="img"></image>
+          <view class="numb">01</view>
+        </view>
+        <view class="fl explain">
+          <view class="tit">
+            <span class="color">10年</span>经验专注物流运营
+          </view>
+          <view class="text">10多年物流运营经验，拥有境内外及本土社会资源</view>
+        </view>
+      </view>
+
+      <view class="show_list clf">
+        <view class="fl explain">
+          <view class="tit">
+            <span class="color">10年</span>经验专注物流运营
+          </view>
+          <view class="text">与国内外10000家国际货代公司保持长期稳定的合作关系</view>
+        </view>
+        <view class="fl img_box">
+          <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_img02%402x.png" class="img"></image>
+          <view class="numb">02</view>
+        </view>
+      </view>
+
+      <view class="show_list clf">
+        <view class="fl img_box">
+          <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_img03%402x.png" class="img"></image>
+          <view class="numb">03</view>
+        </view>
+        <view class="fl explain">
+          <view class="tit">
+            <span class=" color">10年</span>经验专注物流运营
+          </view>
+          <view class="text">覆盖全球90%以上国家、机场、港口，让货物闪电到达全球每一个角落。</view>
+        </view>
+      </view>
+
+      <view class="show_list clf">
+        <view class="fl explain">
+            <view class="tit">
+              <span class="color">10年</span>经验专注物流运营
+            </view>
+            <view class="text">拥有100000条国内外物流渠道方便客户出口到世界上的任何地方</view>
+          </view>
+          <view class="fl img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_img04%402x.png" class="img"></image>
+          <view class="numb">04</view>
+        </view>
+      </view>
+
+      <view class="btn">LOOK MORE</view>
+    </view>
+
+    <!-- 我们的服务 -->
+    <view class="service">
+      <view class="tit_x">OUR ADVANTAGE</view>
+      <view class="line_x"></view>
+      <view class="name_x">我们的服务</view>
+      <view class="text_x">秉承"客户至上，服务第一"的宗旨，依赖经验丰富且高度专业、敬业、乐业的物流人才，科学高效的实时电子物流系统,健全完善的国际代理网络以及从南至北覆盖中国主要海空港的公司。我们竭诚为国内外客户提供了具有个性化的、全面创新的一站式和可达五洲全球的物流平台。</view>
+      <view class="service_r clf">
+        <view class="service_list fl">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_service01%402x.png"></image>
+          </view>
+          <view class="text">海量运价，覆盖全球</view>
+          <view class="text">覆盖全球90%以上国家运价</view>
+        </view>
+
+        <view class="service_list fl">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_service02%402x.png"></image>
+          </view>
+          <view class="text">专业客服，全程跟踪</view>
+          <view class="text">平均3年以上物流行业专业客服</view>
+        </view>
+
+        <view class="service_list fl">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_service03%402x.png"></image>
+          </view>
+          <view class="text">货物出口 ，一站式解决</view>
+          <view class="text">24小时随时随地在线操作</view>
+        </view>
+
+        <view class="service_list fl">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_service04%402x.png"></image>
+          </view>
+          <view class="text">在线购保 ，安全放心</view>
+          <view class="text">在线购买货运保险，丢货全赔</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 交易流程 -->
+    <view class="transation">
+      <view class="tit_x">TRANSACTION PROCESS</view>
+      <view class="line_x"></view>
+      <view class="name_x">交易流程</view>
+
+      <view class="transation_r">
+        <view class="transation_list">
+          <view class="left img_1"></view>
+          <view class="right">
+            <view class="text_a">闪电下单通知物流商收货</view>
+            <view class="text_b">物流商上门取件，方便快捷。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+        <view class="transation_list">
+          <view class="left img_2"></view>
+          <view class="right">
+            <view class="text_a">物流商上传货件信息（重量、体积等）</view>
+            <view class="text_b">物流商录入货物信息，在线查件，有迹可循。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+        <view class="transation_list">
+          <view class="left img_3"></view>
+          <view class="right">
+            <view class="text_a">支付运费托管至平台</view>
+            <view class="text_b">杜绝纠纷，发货更轻松。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+        <view class="transation_list">
+          <view class="left img_4"></view>
+          <view class="right">
+            <view class="text_a">物流商发货</view>
+            <view class="text_b">可在线购买货运保险，丢货全赔。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+        <view class="transation_list">
+          <view class="left img_5"></view>
+          <view class="right">
+            <view class="text_a">确认货物已送达</view>
+            <view class="text_b">超长45天保障期，最长可延期90天，双向保证。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+
+        <view class="transation_list">
+          <view class="left img_6"></view>
+          <view class="right">
+            <view class="text_a">平台支付费用给商家</view>
+            <view class="text_b">闪电到账，商户放心。</view>
+          </view>
+        </view>
+        <view class="line"></view>
+
+        <view class="transation_list">
+          <view class="left img_7"></view>
+          <view class="right">
+            <view class="text_a">双方互评</view>
+            <view class="text_b">双方互相评价，综合评分。</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+        <!-- 交易流程 -->
+    <view class="case">
+      <view class="tit_x">SUCCESSFUL CASE</view>
+      <view class="line_x"></view>
+      <view class="name_x">成功案例</view>
+      <view class="text_x">秉承"客户至上，服务第一"的宗旨，依赖经验丰富且高度专业、敬业、乐业的物流人才，科学高效的实时电子物流系统,健全完善的国际代理网络以及从南至北覆盖中国主要海空港的公司。我们竭诚为国内外客户提供了具有个性化的、全面创新的一站式和可达五洲全球的物流平台。</view>
+      <view class="case_r">
+        <view class="case_list">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_case01%402x.png"></image>
+            <view class="scheme">我们提供快速有力的运输解决方案</view>
+          </view>
+          <view class="text">全球DDP DDU清关，门到门派送服务、全程保险、全方位的物流服务。提供安全、快捷的货款回收服务。接受发货地客户的委托，将货物运送至目的地客户，在交付货物的同时，向目的地客户收回货款，并在规定时限内将货款返还给发货地客户。</view>
+          <view class="btn">查看详情</view>
+        </view>
+
+        <view class="case_list">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_case02%402x.png"></image>
+            <view class="scheme">我们提供快速有力的运输解决方案</view>
+          </view>
+          <view class="text">全球DDP DDU清关，门到门派送服务、全程保险、全方位的物流服务。提供安全、快捷的货款回收服务。接受发货地客户的委托，将货物运送至目的地客户，在交付货物的同时，向目的地客户收回货款，并在规定时限内将货款返还给发货地客户。</view>
+          <view class="btn">查看详情</view>
+        </view>
+
+        <view class="case_list">
+          <view class="img_box">
+            <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_case03%402x.png"></image>
+            <view class="scheme">我们提供快速有力的运输解决方案</view>
+          </view>
+          <view class="text">全球DDP DDU清关，门到门派送服务、全程保险、全方位的物流服务。提供安全、快捷的货款回收服务。接受发货地客户的委托，将货物运送至目的地客户，在交付货物的同时，向目的地客户收回货款，并在规定时限内将货款返还给发货地客户。</view>
+          <view class="btn">查看详情</view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

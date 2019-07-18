@@ -1,0 +1,81 @@
+/**app.wxss**/
+@charset "utf-8";
+
+/*html5 reset*/
+ul, li, ol {
+    list-style: none
+}
+h1, h2, h3, h4, h5, h6, em, i{
+    font-style: normal;
+}
+.hide{display:none}
+.fl {
+    float:left
+}
+.fr {
+    float:right;
+}
+.clf::after{
+  display: block;
+  content: '.';
+  height: 0;
+  clear: both;
+  opacity: 0;
+  visibility: hidden;
+}
+.over{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 字体图标 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1299167 */
+  src: url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.eot');
+  src: url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconshandian:before {
+  content: "\e60d";
+}
+
+.iconyduidunpaishixin:before {
+  content: "\e67e";
+}
+
+.iconzhangdan:before {
+  content: "\e611";
+}
+
+.iconyou:before {
+  content: "\e63d";
+}
+
+/* 引入字体文件 */
+@font-face{
+  font-family: PingFangM;
+  src: url("./font/PingFang Medium.ttf");
+  font-weight: bold;
+}
+
+
+/* 公用 */
+page{ 
+  font-size: 12px;
+  background-color: #f3f3f3;
+  font-family: PingFangM, Microsoft Yahei;
+}
+

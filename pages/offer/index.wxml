@@ -1,0 +1,60 @@
+<!--pages/offer/index.wxml-->
+<view class="container">
+<swiper autoplay= none class="tab" bindchange="bindChange">
+  <swiper-item class="fl swiper_item" wx:for="{{tab_item}}" wx:key="" wx:for-index="tab_i">
+    <view class="tab_list">
+      <span>{{item}}</span>
+      <span class="line"></span>
+    </view>
+  </swiper-item>
+</swiper>
+
+  <view class="search">
+    <view class="from clf">
+      <view class="icon fl">始</view>
+      <input class="text" class="ipt" placeholder="请输入起始地城市"></input>
+    </view>
+    <view class="to clf">
+      <view class="icon fl">收</view>
+      <input class="text" class="ipt" placeholder="请输入目的地城市"></input>
+    </view>
+    <view class="btn">搜索</view>
+    <view class="sort">
+      <view class='sort_list {{currentData == 0 ? "active" : ""}}' data-current = "0" bindtap='checkCurrent'>综合排序</view>
+      <view class='sort_list {{currentData == 1 ? "active" : ""}}' data-current = "1" bindtap='checkCurrent'>最新发布</view>
+      <view class='sort_list {{currentData == 2 ? "active" : ""}}' data-current = "2" bindtap='checkCurrent'>价格排序</view>
+      <view class='sort_list {{currentData == 3 ? "active" : ""}}' data-current = "3" bindtap='checkCurrent'>时效排序</view>
+    </view>
+  </view>
+
+  <view class="offer">
+    <view class='offer_list' wx:for="{{offer}}" wx:key="">
+      <view class="location clf">
+        <view class="location_l fl over">{{item.from_a}}</view>
+        <view class="line fl">
+          <view class="time">{{item.time}}</view>
+        </view>
+        <view class="location_r fl over">{{item.to_a}}</view>
+      </view>
+
+      <view class="price clf">
+        <view  class="price_list fl {{ ik == 1?'price_mid':'' }}" wx:for="{{item.priceItem}}" wx:for-index="ik" wx:key="">
+          <view class="measure over">{{item.measure}}</view>
+          <view class="price_numb over">￥{{item.price}}/kg</view>
+          <view class="line_box"></view>
+        </view>
+      </view>
+
+      <view class="contact clf">
+        <view class="fl">
+          <span class="fl left over">{{item.name}}</span>
+          <i class="iconfont iconyduidunpaishixin fl"></i>
+        </view>
+        <view class="fr">
+          <span class="fl">收货范围：</span>
+          <span class="fl right over">{{item.scope}}</span>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

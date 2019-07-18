@@ -1,0 +1,13 @@
+<!--pages/my/remaining_sum/log/index.wxml-->
+<view class="container">
+  <view class="list" wx:for="{{log_list}}" wx:key="">
+    <view class="list_top clf">
+      <view class="fl">{{item.type}}</view>
+      <view class="fr {{item.price > 0 ? 'color' : ''}}">{{item.price}}</view>
+    </view>
+    <view class="list_bottom clf">
+      <view class="fl">{{item.time}}</view>
+      <view class="fr">余额：{{item.balance}}元</view>
+    </view>
+  </view>
+</view>

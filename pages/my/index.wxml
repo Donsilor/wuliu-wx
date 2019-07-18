@@ -1,0 +1,247 @@
+<!--pages/my/index.wxml-->
+<view class="container">
+  <view class="user_info clf">
+    <view class="img_box fl">
+      <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/img_heat%402x.png"></image>
+    </view>
+    <view class="right fl">
+      <view class="right_t clf">
+        <view class="name fl over">深圳板栗物流有限公司</view>
+        <view class="authentication fl">已认证</view>
+      </view>
+      <view class="tel">18617179617</view>
+    </view>
+  </view>
+
+  <view class="bg_fff">
+    <view class="bg_color">
+      <view class="price">6,500.22</view>
+      <view class="text">我的账户（元）</view>
+      <navigator class="look" url="./remaining_sum/index">
+        <i class="iconfont iconzhangdan"></i>查看更多
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 个人 -->
+  <view class="my personal" wx:if= "">
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_order"></span>
+      </view>
+      <view class="fl text">我的订单</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_offer"></span>
+      </view>
+      <view class="fl text">我的报价</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_enquiry"></span>
+      </view>
+      <view class="fl text">我的询价</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_collect"></span>
+      </view>
+      <view class="fl text">我的收藏</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_amend"></span>
+      </view>
+      <view class="fl text">修改资料</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_contact"></span>
+      </view>
+      <view class="fl text">联系我们</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+
+    <view class="list clf">
+      <view class="fl left">
+        <span class="fl icon icon_complain"></span>
+      </view>
+      <view class="fl text">投诉建议</view>
+      <span class="fr back">
+        <i class="iconfont iconyou"></i>
+      </span>
+    </view>
+  </view>
+
+  <!-- 物流商 -->
+  <view class="my merchant" wx:if="1">
+    <view class="margin_bottom">
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_manage"></span>
+        </view>
+        <view class="fl text">订单管理</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_order"></span>
+        </view>
+        <view class="fl text">我的订单</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_offer"></span>
+        </view>
+        <view class="fl text">我的报价</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_enquiry"></span>
+        </view>
+        <view class="fl text">我的询价</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_collect"></span>
+        </view>
+        <view class="fl text">我的收藏</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+    </view>
+
+    <view class="margin_bottom">
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_air"></span>
+        </view>
+        <view class="fl text">国际空运</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_expressage"></span>
+        </view>
+        <view class="fl text">国际快递</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_sea"></span>
+        </view>
+        <view class="fl text">国际海运</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_Europe"></span>
+        </view>
+        <view class="fl text">中欧班列</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_packet"></span>
+        </view>
+        <view class="fl text">国际小包</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_special"></span>
+        </view>
+        <view class="fl text">国内专线</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+    </view>
+
+    <view class="margin_bottom">
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_amend"></span>
+        </view>
+        <view class="fl text">修改资料</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_contact"></span>
+        </view>
+        <view class="fl text">联系我们</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+
+      <view class="list clf">
+        <view class="fl left">
+          <span class="fl icon icon_complain"></span>
+        </view>
+        <view class="fl text">投诉建议</view>
+        <span class="fr back">
+          <i class="iconfont iconyou"></i>
+        </span>
+      </view>
+    </view>
+  </view>
+</view>

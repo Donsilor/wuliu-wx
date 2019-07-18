@@ -1,0 +1,22 @@
+/* pages/my/remaining_sum/log/index.wxss */
+.list{
+  height: 130rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list_top{
+  font-size: 32rpx;
+  color: #333;
+}
+.list_top .color{
+  color: #ff6d0c;
+}
+.list_bottom{
+  font-size: 24rpx;
+  color: #999;
+}
