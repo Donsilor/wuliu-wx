@@ -1,0 +1,39 @@
+<!--pages/enquiry/enquiry_detail/lightning_offer/index.wxml-->
+<view class="container">
+  <view class="channel">
+    <view class="section">
+      <view class="fl left">运输渠道</view>
+      <view class="fr right">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="fr picker">
+            <view class="fl" wx:if="{{index =='-1'}}">请选择</view>{{array[index]}}
+            <i class="iconfont iconyou" wx:if="{{array[index]}} == true"></i>
+          </view>
+        </picker>
+      </view>
+    </view> 
+  </view>
+
+  <view class="scope clf">
+    <view class="fl left">优势单价范围</view>
+    <view class="fr right clf">
+      <input class="fl ipt"></input>
+      <span class="fl">元</span>
+      <span class="fl line">—</span>
+      <input class="fl ipt"></input>
+      <span class="fl">元</span>
+    </view>
+  </view>
+  <view class="explain">
+    <view class="tit">详细报价说明</view>
+    <textarea class="textarea" placeholder="请输入详细报价说明"></textarea>
+  </view>
+
+  <view class="isShow {{isChoose == true ? 'active' : ''}}" bindtap="isShow">
+    <view class="fl circle">
+      <view class="icon"></view>
+    </view>
+    <view class="fl">我的报价仅限发布人查看，对其他人隐藏</view>
+  </view>
+  <view class="btn">提交我的报价方案</view>
+</view>

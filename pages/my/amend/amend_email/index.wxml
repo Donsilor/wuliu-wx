@@ -1,0 +1,8 @@
+<!--pages/my/amend/amend_email/index.wxml-->
+<view class="container">
+  <view class="list">
+    <input class="ipt" placeholder="请输入常用邮箱" placeholder-style="color: #999"></input>
+  </view>
+
+  <view class="btn">保存修改</view>
+</view>

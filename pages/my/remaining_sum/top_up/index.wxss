@@ -48,6 +48,28 @@
   background-color: #fff;
   padding: 0 30rpx;
   box-sizing: border-box;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 90rpx;
+
+}
+
+.pay_type .icon_weixin{
+  width: 44rpx;
+  height: 44rpx;
+  background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/icon_wechatpay%402x.png') no-repeat center;
+  background-size: 100% 100%;
+  margin: 27rpx 20rpx 0 0;
+}
+.pay_type .icon_balance{
+  width: 44rpx;
+  height: 44rpx;
+  background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/icon_balancepay%402x.png') no-repeat center;
+  background-size: 100% 100%;
+  margin: 23rpx 20rpx 0 0;
+}
+.pay_type .isShow{
+  margin: 32rpx 0 0 0;
 }
 
 .btn{

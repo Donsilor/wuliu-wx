@@ -1,0 +1,11 @@
+<!--pages/offer/offer_detail/lightning_order/succeed/index.wxml-->
+<view class="container">
+  <view class="icon"></view>
+  <view class="tit">下单成功</view>
+  <view class="status">等待物流商上传货件信息</view>
+  <view class="order_numb">订单号：45646464898979878</view>
+
+  <navigator class="look" url="../../../../my/my_order/index">查看订单</navigator>
+  <view class="back" bindtap="backHome">返回首页</view>
+</view>
+

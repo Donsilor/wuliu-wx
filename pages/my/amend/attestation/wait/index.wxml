@@ -1,0 +1,8 @@
+<!--pages/my/amend/attestation/wait/index.wxml-->
+<view class="container">
+  <view class="icon"></view>
+  <view class="tit">等待审核</view>
+  <view class="status">预计1-3个工作日，请耐心等候</view>
+
+  <view class="finish">完成</view>
+</view>

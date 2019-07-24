@@ -1,0 +1,67 @@
+/* pages/my/my_order/order_detail/pay/index.wxss */
+.hint{
+  height: 76rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 84rpx;
+}
+.box{
+  height: 146rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 30rpx;
+  color: #333;
+}
+.margin_bottom{
+  margin-bottom: 20rpx;
+}
+.box .color{
+  color: #ff6305;
+}
+
+.type{
+  background-color: #fff;
+  font-size: 30rpx;
+  color: #333;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.type .list{
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.type .list:first-child{
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.type .icon_weixin{
+  width: 44rpx;
+  height: 44rpx;
+  background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/icon_wechatpay%402x.png') no-repeat center;
+  background-size: 100% 100%;
+  margin: 27rpx 20rpx 0 0;
+}
+.type .icon_balance{
+  width: 44rpx;
+  height: 44rpx;
+  background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/icon_balancepay%402x.png') no-repeat center;
+  background-size: 100% 100%;
+  margin: 23rpx 20rpx 0 0;
+}
+.type .isShow{
+  margin: 32rpx 0 0 0;
+}
+
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 60rpx auto;
+}

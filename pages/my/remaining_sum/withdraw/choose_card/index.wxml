@@ -1,2 +1,27 @@
 <!--pages/my/remaining_sum/withdraw/choose_card/index.wxml-->
-<text>pages/my/remaining_sum/withdraw/choose_card/index.wxml</text>
+<view class="container">
+  <view class="tit">请选择提现银行卡</view>
+  <view class="box">
+
+    <navigator class="card_list" wx:for="{{card_list}}" wx:key="" url="../index">
+      <view class="img fl"></view>
+      <view class="right fl">
+        <view class="type">{{item.type}}</view>
+        <view class="user">
+          <view class="name fl">{{item.name}}</view>
+          <view class="numb fr">
+            <span>****</span>
+            <span>****</span>
+            <span>****</span>
+            <span>****</span>
+            <span>1532</span>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+  </view>
+
+  <navigator class="btn" url="./add_card/index">添加银行卡</navigator>
+</view>
+   

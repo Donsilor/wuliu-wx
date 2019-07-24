@@ -28,7 +28,7 @@
   </view>
 
   <view class="offer">
-    <view class='offer_list' wx:for="{{offer}}" wx:key="">
+    <navigator class="offer_list" wx:for="{{offer}}" wx:key="" url="./offer_detail/index">
       <view class="location clf">
         <view class="location_l fl over">{{item.from_a}}</view>
         <view class="line fl">
@@ -55,6 +55,6 @@
           <span class="fl right over">{{item.scope}}</span>
         </view>
       </view>
-    </view>
+    </navigator>
   </view>
 </view>

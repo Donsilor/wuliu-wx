@@ -1,0 +1,87 @@
+<!--pages/offer/offer_detail/lightning_order/index.wxml-->
+<view class="container">
+  <view class="top">
+    <view class="company">
+      <view class="fl">
+        <span class="name">深圳国际物流有限公司</span>
+        <i class="iconfont iconyduidunpaishixin"></i>
+      </view>
+      <view class="fr btn">
+        <i class="iconfont icondianhua"></i>
+        <span>联系商家</span>
+      </view>
+    </view>
+
+    <view class="location_box">
+      <view class="location clf">
+        <view class="location_l fl over">深圳</view>
+        <view class="line fl"></view>
+        <view class="location_r fl over">东京</view>
+      </view>
+
+      <view class="channel">货运渠道：国际空运</view>
+    </view>
+  </view>
+  <view class="inform">
+    <view class="negotiate clf">
+      <view class="left fl">双方协议单价：</view>
+      <input class="ipt fl" placeholder="请输入双方协议单价"></input>
+      <view class="fl">/kg</view>
+    </view>
+    <navigator class="btn" url="./succeed/index">通知物流商收货</navigator>
+  </view>
+  
+  <view class="flow">
+    <view class="tit">交易流程</view>
+    <view class="flow_box">
+      <view class="flow_list">
+        <view class="left step_01"></view>
+        <view class="right">
+          <view class="flow_t">闪电下单通知物流商收货</view>
+          <view class="flow_b">物流商上门取件，方便快捷。</view>
+        </view>
+      </view>
+      <view class="flow_line"></view>
+      <view class="flow_list">
+        <view class="left step_02"></view>
+        <view class="right">
+          <view class="flow_t">物流商上传货件信息（重量、体积等）</view>
+          <view class="flow_b">物流商录入货物信息，在线查件，有迹可循。</view>
+        </view>
+      </view>
+      <view class="flow_line"></view>
+      <view class="flow_list">
+        <view class="left step_03"></view>
+        <view class="right">
+          <view class="flow_t">支付运费托管至平台</view>
+          <view class="flow_b">杜绝纠纷，发货更轻松。</view>
+        </view>
+      </view>
+      <view class="flow_line"></view>
+      <view class="flow_list">
+        <view class="left step_04"></view>
+        <view class="right">
+          <view class="flow_t">物流商发货</view>
+          <view class="flow_b">可在线购买货运保险，丢货全赔。</view>
+        </view>
+      </view>
+      <view class="flow_line"></view>
+      <view class="flow_list">
+        <view class="left step_05"></view>
+        <view class="right">
+          <view class="flow_t">确认货物已送达</view>
+          <view class="flow_b">超长45天保障期，最长可延期90天，双向保证。</view>
+        </view>
+      </view>
+      <view class="flow_line"></view>
+      <view class="flow_list">
+        <view class="left step_06"></view>
+        <view class="right">
+          <view class="flow_t">平台支付费用给商家</view>
+          <view class="flow_b">闪电到账，商户放心。</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

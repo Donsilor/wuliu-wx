@@ -1,4 +1,4 @@
-/* pages/offer/index.wxss */
+ /* pages/offer/index.wxss */
 .tab{
   width: 100%;
   height: 90rpx;
@@ -190,4 +190,8 @@
 }
 .contact .right{
   max-width: 260rpx;
+}
+.contact .iconfont{
+  color: #1D0D08;
+  margin-left: 10rpx;
 }

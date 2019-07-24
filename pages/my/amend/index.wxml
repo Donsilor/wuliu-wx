@@ -1,0 +1,79 @@
+<!--pages/my/amend/index.wxml-->
+<view class="container">
+  <view class="list clf">
+    <view class="left fl">头像</view>
+    <view class="right fr">
+      <view class="fl img_box">
+        <image src="https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_heat%402x.png "></image>
+      </view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="left fl">用户名</view>
+    <view class="right fr">
+      <view class="fl">今晚繁星闪闪</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="left fl">真实姓名</view>
+    <view class="right fr">
+      <view class="fl">锐雯</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <!-- 物流商登录时显示 -->
+  <view class="list clf">
+    <view class="left fl">公司名称</view>
+    <view class="right fr">
+      <view class="fl">深圳市国际物流有限公司</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <navigator class="list clf" url="./amend_email/index">
+    <view class="left fl">常用邮箱</view>
+    <view class="right fr">
+      <view class="fl">请输入常用邮箱</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+  <view class="list clf margin_top">
+    <view class="left fl">收货地址</view>
+    <view class="right fr">
+      <view class="fl">请输入收货地址</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <!-- 物流商登录时显示 -->
+  <view class="list clf">
+    <view class="left fl">收货范围</view>
+    <view class="right fr">
+      <view class="fl">请输入收货范围，如深圳市及周边</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </view>
+  <navigator class="list clf" url="./amend_tel/index">
+    <view class="left fl">更换手机号</view>
+    <view class="right fr">
+      <view class="fl">13600168653</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+
+  <!-- 物流商登录时显示 -->
+  <navigator class="list clf margin_top" url="./attestation/index">
+    <view class="left fl">企业认证</view>
+    <view class="right fr">
+      <view class="fl">立即认证</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+  <navigator class="list clf" url="./push/index">
+    <view class="left fl">推送设置</view>
+    <view class="right fr">
+      <view class="fl">立即设置</view>
+      <i class="iconfont iconyou"></i>
+    </view>
+  </navigator>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/my/amend/amend_tel/finish/index.wxml-->
+<view class="container">
+  <view class="tit">绑定成功后，即可用新手机号登录</view>
+  <view class="list border">
+    <view class="fl">
+      <input class="ipt" placeholder="请输入新的手机号码" placeholder-style="color: #999" bindinput="iptFun"></input>
+    </view>
+    <view class="fr right {{ipt_1 != '' ? 'color' : ''}}">获取验证码</view>
+  </view>
+  <view class="list">
+    <input class="ipt" placeholder="请输入验证码" placeholder-style="color: #999"></input>
+  </view>
+
+  <view class="btn">完成</view>
+</view>

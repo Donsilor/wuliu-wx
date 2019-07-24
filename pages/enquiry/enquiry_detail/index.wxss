@@ -1,0 +1,263 @@
+/* pages/enquiry/enquiry_detail/index.wxss */
+.container{
+  padding-bottom: 120rpx;
+}
+.top_box{
+  background-color: #fff;
+  border-top: 1rpx solid #ddd;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.info{
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #ddd;
+}
+.info_t{
+  font-size: 28rpx;
+  color: #444;
+}
+.info_b{
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 30rpx;
+}
+.info_b .time{
+  margin-left: 30rpx;
+}
+
+.enquiry_list{
+	padding: 30rpx 0;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+.location{
+  font-size: 28rpx;
+  color: #4c4c4c;
+}
+.location .location_l{
+	width: 140rpx;
+}
+.location .line{
+	width: 132rpx;
+	height: 8rpx;
+	background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_transport%402x.png") no-repeat center;
+	background-size: 100% 100%;
+  margin: 14rpx 20rpx;
+}
+.location .location_r{
+	width: 220rpx;
+  margin-left: 82rpx;
+}
+
+.enquiry_list .text{
+  font-size: 24rpx;
+  color: #8a8a89;
+  margin-top: 20rpx;
+}
+
+.enquiry_list .demand{
+  max-width: 500rpx;
+}
+
+.enquiry_list .name{
+  max-width: 180rpx;
+  margin-right: 50rpx;
+}
+
+.enquiry_list .measure{
+  max-width: 180rpx;
+}
+
+.enquiry_list .remark{
+  max-width: 100%;
+}
+
+.enquiry_list .date{
+  height: 74rpx;
+  line-height: 74rpx;
+  font-size: 22rpx;
+  color: #8a8a89;
+  border-top: 1rpx solid #eee;
+  margin-top: 30rpx;
+}
+
+.all_offer{
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.all_offer .tit{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #333;
+  border-bottom: 1rpx solid #ddd;
+}
+.all_offer .acquire{
+  font-size: 23rpx;
+  color: #999;
+}
+.offer_list{
+  padding-top: 30rpx;
+}
+.offer_list .logo{
+  width: 60rpx;
+  height: 60rpx;
+}
+.offer_list .logo image{
+  width: 100%;
+  height: 100%;
+}
+.offer_list .right{
+  width: 610rpx;
+  margin-left: 20rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.offer_list .company{
+  font-size: 26rpx;
+  color: #444;
+}
+.offer_list .company .iconfont{
+  color: #1E0E08;
+  margin-left: 10rpx;
+}
+.offer_list .time{
+  font-size: 20rpx;
+  color: #aeacac;
+}
+.content{
+  margin: 40rpx 0;
+}
+.content .predict{
+  font-size: 28rpx;
+  color: #333;
+}
+.content .detail{
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+.content .only{
+  font-size: 28rpx;
+  color: #999;
+}
+.offer_list .btn{
+  height: 44rpx
+}
+.offer_list .contact{
+  width: 160rpx;
+  height: 44rpx;
+  border: 1rpx solid #ff6305;
+  border-radius: 22rpx;
+  font-size: 22rpx;
+  color: #ff6305;
+  line-height: 42rpx;
+  text-align: center;
+}
+.offer_list .place_order{
+  width: 140rpx;
+  height: 44rpx;
+  background-color: #fe7827;
+  border-radius: 22rpx;
+  font-size: 22rpx;
+  color: #fff;
+  line-height: 44rpx;
+  text-align: center;
+}
+.offer_list .contact .iconfont{
+  color: #ff6305;
+  margin-right: 6rpx;
+}
+
+.lightning_offer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background-color: #fff;
+  padding: 16rpx 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.cancot{
+  height: 100%;
+  font-size: 25rpx;
+  color: #8a8a89;
+  line-height: 66rpx;
+}
+.lightning{
+  flex: 1;
+  height: 100%;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 66rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  margin-left: 30rpx
+}
+
+
+/* 弹窗，联系客服 */
+.popup{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3)
+}
+
+.popup .content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 560rpx;
+  height: 290rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+}
+
+.popup .text{
+  font-size: 36rpx;
+  color: #000;
+  text-align: center;
+}
+.popup .numb{
+  font-size: 30rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.popup .btn_box{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 36rpx;
+  border-top: 1px solid #d2d3d5;
+}
+.popup .quit{
+  width: 50%;
+  height: 100rpx;
+  border-right: 1px solid #d2d3d5;
+  font-size: 36rpx;
+  color: #000;
+  line-height: 100rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.popup .dial{
+  width: 50%;
+  height: 100rpx;
+  font-size: 36rpx;
+  color: #ff6305;
+  text-align: center;
+  line-height: 100rpx;
+}

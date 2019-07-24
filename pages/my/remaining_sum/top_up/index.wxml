@@ -11,9 +11,16 @@
     <view class="hint">请输入充值金额</view>
   </view>
   <view class="tit">支付方式</view>
-  <view class="pay_type">
-    <view class="fl"></view>
-    <view class="fr"></view>
+  <view class="pay_type clf">
+    <view class="fl clf">
+      <span class="fl icon_weixin"></span>
+      <span class="fl">微信支付</span>
+    </view>
+    <view class="fr isShow active">
+      <view class="fl circle">
+        <view class="icon"></view>
+      </view>
+    </view>
   </view>
   <view class="btn">立即充值</view>
 </view>

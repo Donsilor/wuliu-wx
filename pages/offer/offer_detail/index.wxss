@@ -1,0 +1,129 @@
+/* pages/offer/offer_detail/index.wxss */
+page{
+  background-color: #fff;
+}
+.container{
+  padding: 0 30rpx 100rpx;
+  box-sizing: border-box;
+  border-top: 1rpx solid #ddd;
+}
+.top{
+  padding: 30rpx 0;
+  box-sizing: border-box;
+}
+.top .company{
+  font-size: 28rpx;
+  color: #444;
+}
+.company .iconfont{
+  color: #1D0D08;
+  margin-left: 10rpx;
+}
+.date{
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 26rpx;
+}
+.date .time{
+  margin-left: 20rpx;
+}
+.price{
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+}
+.location{
+  height: 94rpx;
+  font-size: 28rpx;
+  color: #4c4c4c;
+  line-height: 76rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.location .location_l{
+	width: 140rpx;
+}
+.location .line{
+	width: 132rpx;
+	height: 8rpx;
+	background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_transport%402x.png") no-repeat center;
+	background-size: 100% 100%;
+  margin: 34rpx 20rpx;
+}
+.location .location_r{
+	width: 220rpx;
+  margin-left: 82rpx;
+}
+.price_list{
+  height: 90rpx;
+  font-size: 30rpx;
+  color: #666;
+  text-align: center;
+}
+.price_list .fl{
+  width: 50%;
+  line-height: 90rpx;
+}
+.price_list:nth-of-type(even){
+  background-color: #f7f7f7;
+}
+
+.detail{
+  padding-top: 30rpx;
+  font-size: 24rpx;
+}
+.detail .list{
+  margin-bottom: 20rpx;
+}
+.detail .list .left{
+  width: 130rpx;
+  color: #999;
+}
+.detail .list .right{
+  width: 565rpx;
+  color: #666;
+}
+
+
+.contral{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  /* border-top: 1rpx solid #ccc; */
+  box-shadow: 5rpx 0 5rpx #ccc;
+}
+.contral .left{
+  width: 230rpx;
+  height: 98rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 22rpx;
+  color: #8a8a8a;
+}
+.contral .left .iconfont{
+  font-size: 38rpx;
+  margin-bottom: 10rpx;
+  color: #aaa;
+}
+.contral .left .iconshoucang{
+  font-size: 44rpx
+}
+.contral .left .iconstar{
+  color: #ff6305;
+}
+.contral .right{
+  width: 460rpx;
+  height: 64rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 64rpx;
+  margin-top: 18rpx;
+}

@@ -1,0 +1,9 @@
+<!--pages/my/order_manage/undelivered/index.wxml-->
+<view class="container">
+  <view class="demand">
+    <view class="tit">填写货物未送达原因</view>
+    <textarea class="textarea" placeholder="填写货物未送达原因，如：海关查验、货物丢失等"></textarea>
+  </view>
+
+  <view class="btn">提交</view>
+</view>

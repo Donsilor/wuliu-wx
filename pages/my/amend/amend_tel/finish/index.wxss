@@ -1,0 +1,42 @@
+/* pages/my/amend/amend_tel/finish/index.wxss */
+.tit{
+  height: 78rpx;
+  line-height: 84rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+}
+.list{
+  height: 100rpx;
+  background-color: #fff;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #333;
+}
+.list .right{
+  height: 100rpx;
+}
+.list .color{
+  color: #ff6305;
+}
+.list.border{
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.list .ipt{
+  width: 500rpx;
+  height: 100rpx;
+}
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 60rpx auto;
+}

@@ -1,0 +1,25 @@
+<!--pages/my/collect/index.wxml-->
+<view class="container">
+  <view class="list" wx:for="{{collect_list}}" wx:key="">
+    <view class="left">
+      <view class="location clf">
+        <span class="from fl over">{{item.from_a}}</span>
+        <span class="line fl"></span>
+        <span class="to fl over">{{item.to_a}}</span>
+        <span class="type fl">国际物流</span>
+      </view>
+      <view class="time">
+        <span>收藏时间：</span>
+        <span>{{item.date}}</span>
+        <span>{{item.time}}</span>
+      </view>
+    </view>
+    <view class="right">取消收藏</view>
+  </view>
+
+  <!-- 无收藏时显示 -->
+  <view class="empty" wx:if="{{collect_list == ''}}">
+    <view class="bg_box"></view>
+    <view class="text">暂无收藏</view>
+  </view>
+</view>

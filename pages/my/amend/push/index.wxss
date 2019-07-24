@@ -1,0 +1,22 @@
+/* pages/my/amend/push/index.wxss */
+.tit{
+  height: 78rpx;
+  line-height: 82rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+}
+.list{
+  height: 100rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  line-height: 100rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  color: #333;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.list .fr{
+  margin-top: -4rpx;
+}

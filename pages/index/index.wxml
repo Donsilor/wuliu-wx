@@ -6,7 +6,7 @@
     <view class="enquiry">
       <view class="tit">免费<span class="color">闪电</span>询价</view>
       <view class="tit_small">一分钟填表，享专业方案定制/报价</view>
-      <view class="btn">闪电询价</view>
+      <navigator class="btn" url="../enquiry/lightning_enquiry/index">闪电询价</navigator>
     </view>
   </view>
 

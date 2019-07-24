@@ -1,0 +1,12 @@
+<!--pages/my/amend/amend_tel/index.wxml-->
+<view class="container">
+  <view class="list">
+    <view class="fl">手机号：186****1717</view>
+    <view class="fr color">获取验证码</view>
+  </view>
+  <view class="list">
+    <input class="ipt" placeholder="请输入验证码" placeholder-style="color: #999"></input>
+  </view>
+
+  <view class="btn" bindtap="next">下一步</view>
+</view>

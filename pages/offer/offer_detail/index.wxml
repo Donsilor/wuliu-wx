@@ -1,0 +1,84 @@
+<!--pages/offer/offer_detail/index.wxml-->
+<view class="container">
+  <view class="top">
+    <view class="company">
+      <span>深圳国际物流有限公司</span>
+      <i class="iconfont iconyduidunpaishixin"></i>
+    </view>
+    <view class="date clf">
+      <view class="fl">2019-05-28</view>
+      <view class="fl time">12:03:45</view>
+      <view class="fr">
+        <span>浏览量</span>
+        <span>199</span>
+      </view>
+    </view>
+  </view>
+  <view class="price">
+      <view class="location clf">
+        <view class="location_l fl over">深圳</view>
+        <view class="line fl"></view>
+        <view class="location_r fl over">东京</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">20kg+</view>
+        <view class="fl">￥5/kg</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">45kg+</view>
+        <view class="fl">￥15/kg</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">100kg+</view>
+        <view class="fl">￥25/kg</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">1000kg+</view>
+        <view class="fl">￥35/kg</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">附加费（元）</view>
+        <view class="fl">0</view>
+      </view>
+      <view class="price_list clf">
+        <view class="fl">时效（天）</view>
+        <view class="fl">7-10天</view>
+      </view>
+  </view>
+  <view class="detail">
+    <view class="list clf">
+      <view class="fl left">尾端派送：</view>
+      <view class="fl right">DHL</view>
+    </view>
+    <view class="list clf">
+      <view class="fl left">收货范围：</view>
+      <view class="fl right">深圳市及周边</view>
+    </view>
+    <view class="list clf">
+      <view class="fl left">发货须知：</view>
+      <view class="fl right">我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知我是发货须知</view>
+    </view>
+    <view class="list clf">
+      <view class="fl left">备注：</view>
+      <view class="fl right">期望送货上门我是备注，期望送货上门我是备注，期望送货上门我是备注，期望送货上门我是备注，期望送货上门。希望获得诚意报价！</view>
+    </view>
+  </view>
+
+  <view class="contral">
+    <view class="fl left">
+      <view class="fl">
+        <view class="icon">
+          <i class="iconfont iconkefu2"></i>
+        </view>
+        <view>联系商家</view>
+      </view>
+      <view class="fr">
+        <view class="icon active">
+          <i class="iconfont iconshoucang"></i>
+        </view>
+        <view>收藏</view>
+      </view>
+    </view>
+    <navigator class="fr right" url="./lightning_order/index">闪电下单</navigator>
+  </view>
+</view>

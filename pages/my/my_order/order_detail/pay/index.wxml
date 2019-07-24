@@ -1,0 +1,36 @@
+<!--pages/my/my_order/order_detail/pay/index.wxml-->
+<view class="container">
+  <view class="hint">订单信息</view>
+  <view class="box">
+    <view class="list margin_bottom">订单号：546512313135</view>
+    <view class="list">订单总额：<span class="color">￥593.00</span></view>
+  </view>
+  <view class="hint">选择支付方式</view>
+  <view class="type">
+    <view class="list clf">
+      <view class="fl clf">
+        <span class="fl icon_weixin"></span>
+        <span class="fl">微信支付</span>
+      </view>
+      <view class="fr isShow active">
+        <view class="fl circle">
+          <view class="icon"></view>
+        </view>
+      </view>
+    </view>
+
+    <view class="list clf">
+      <view class="fl clf">
+        <span class="fl icon_balance"></span>
+        <span class="fl">账户余额（￥6355.00）</span>
+      </view>
+      <view class="fr isShow active">
+        <view class="fl circle">
+          <view class="icon"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="btn">确认支付</view>
+</view>

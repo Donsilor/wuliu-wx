@@ -1,0 +1,97 @@
+<!--pages/enquiry/enquiry_detail/index.wxml-->
+<view class="container">
+  <view class="top_box" wx:for="{{enquiry}}" wx:key="">
+    <view class="info">
+      <view class="info_t over">从深圳至东京的货物运输，希望获得诚意报价！</view>
+      <view class="info_b clf">
+        <view class="fl">{{item.user}}</view>
+        <view class="fl time">发布于{{item.release_time}}</view>
+        <view class="fr">浏览量 {{item.page_view}}</view>
+      </view>
+    </view>
+
+    <view class="enquiry">
+      <view class="enquiry_list">
+        <view class="location clf">
+          <view class="location_l fl over">{{item.from_a}}</view>
+          <view class="line fl"></view>
+          <view class="location_r fl over">{{item.to_a}}</view>
+        </view>
+
+        <view class="text clf">
+          <span class="fl">需求：</span>
+          <span class="demand fl over">{{item.demand}}</span>
+        </view>
+        <view class="text clf">
+          <span class="fl">产品品名：</span>
+          <span class="name fl over">{{item.name}}</span>
+          <span class="fl">计量：</span>
+          <span class="measure fl over">{{item.measure}}</span>
+        </view>
+        <view class="text clf">
+          <span class="fl">产品类型：</span>
+          <span class="name fl over">{{item.type}}</span>
+          <span class="fl">货物体积：</span>
+          <span class="measure fl over">{{item.volume}}</span>
+        </view>
+        <view class="text clf">出货时间：{{item.shipment_time}}</view>
+        <view class="text clf">
+          <span class="remark fl">{{item.remark}}</span>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="all_offer">
+    <view class="tit clf">
+      <view class="fl">全部报价</view>
+      <view class="fr acquire">已获报价 3</view>
+    </view>
+    <view>
+      <view class="offer_list clf" wx:for="{{offer_list}}" wx:key="">
+        <view class="logo fl">
+          <image src="{{item.logo_url}}"></image>
+        </view>
+        <view class="right fl">
+          <view class="company">{{item.company}}<i class="iconfont iconyduidunpaishixin"></i></view>
+          <view class="time">{{item.time}}</view>
+          <view class="content">
+            <view wx:if="{{item.isShow == 'true'}}">
+              <view class="predict">
+                <span>{{item.time}}</span>
+                <span>预估{{item.price}}</span>
+              </view>
+              <view class="detail">{{item.detail}}</view>
+            </view>
+            <view wx:if="{{item.isShow == 'false'}}">
+              <view class="only">此条报价仅限发布人查看</view>
+            </view>
+          </view>
+          <view class="btn clf">
+            <view class="contact fl" bindtap="contactMerchant">
+              <i class="iconfont icondianhua"></i>联系商家
+            </view>
+            <view class="place_order fr">立即下单</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="lightning_offer">
+    <navigator class="fl cancot" url="./cancot_offer/index">信息不足，无法报价</navigator>
+    <navigator class="fl lightning" url="./lightning_offer/index">闪电报价</navigator>
+  </view>
+
+  <!-- 弹窗，联系客服 -->
+  <view class="popup" wx:if="{{isShowPopup==true}}">
+    <view class="content">
+      <view class="text">联系客服</view>
+      <view class="numb">0755-84258812</view>
+      <view class="btn_box clf">
+        <view class="fl quit" bindtap="quitContact">取消</view>
+        <view class="fl dial">拨打</view>
+      </view>
+    </view>
+  </view>
+</view>

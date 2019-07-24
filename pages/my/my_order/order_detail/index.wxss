@@ -1,0 +1,105 @@
+/* pages/my/my_order/order_detail/index.wxss */
+.status{
+  height: 90rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: #999;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.status .color{
+  color: #333;
+  margin: 0 10rpx;
+}
+
+.scheme,
+.info,
+.time{
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.tit{
+  height: 28rpx;
+  border-left: 6rpx solid #ff6305;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 26rpx;
+  margin-bottom: 30rpx;
+}
+
+.location{
+  font-size: 28rpx;
+  color: #4c4c4c;
+  margin: 30rpx 0 40rpx;
+}
+.location .from{
+	width: 94rpx;
+}
+.location .line{
+	width: 132rpx;
+	height: 8rpx;
+	background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_transport%402x.png") no-repeat center;
+	background-size: 100% 100%;
+  margin: 14rpx 20rpx;
+}
+.location .to{
+	max-width: 120rpx;
+  margin: 0 20rpx 0 32rpx;
+}
+.location .type{
+  font-size: 24rpx;
+  padding-top: 6rpx
+}
+
+.list{
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+.list .left{
+  width: 188rpx;
+}
+
+.total{
+  height: 54rpx;
+  font-size: 26rpx;
+  color: #666;
+  line-height: 84rpx;
+  border-top: 1px solid #eee;
+}
+.total .color{
+  color: #ff6305;
+}
+
+.time .list{
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 18rpx;
+}
+.time .list:last-child{
+  margin: 0
+}
+
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 60rpx auto 0;
+}
+
+.cannot{
+  border: 1rpx solid #ff6305;
+  background-color: #f5f5f5;
+  color: #ff6305;
+  margin: 30rpx auto 60rpx;
+}

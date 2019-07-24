@@ -1,0 +1,32 @@
+<!--pages/my/remaining_sum/withdraw/choose_card/add_card/index.wxml-->
+<view class="container">
+  <view class="tit">仅支持绑定本人的储蓄卡</view>
+  <view class="list">
+    <view class="fl">持卡人：</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入您的姓名"></input>
+    </view>
+  </view>
+  <view class="list section">
+    <view class="fl">银行发卡行：</view>
+    <view class="fr right">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="fr picker">
+          <view class="fl" wx:if="{{index =='-1'}}">请选择</view>{{array[index]}}
+          <i class="iconfont iconyou" wx:if="{{array[index]}} == true"></i>
+        </view>
+      </picker>
+    </view>
+  </view>
+
+
+
+  <view class="list">
+    <view class="fl">卡号：</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入您的姓名"></input>    
+    </view>
+  </view>
+
+  <view class="btn">立即绑定</view>
+</view>

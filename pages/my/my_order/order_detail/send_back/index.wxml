@@ -1,0 +1,9 @@
+<!--pages/my/my_order/order_detail/send_back/index.wxml-->
+<view class="container">
+  <view class="demand">
+    <view class="tit">申诉原因（必填）</view>
+    <textarea class="textarea" placeholder="填写申诉原因，如：货物未按约定送达、货物损坏、货物已送达但用户方拒绝确认等"></textarea>
+  </view>
+
+  <view class="btn">提交</view>
+</view>

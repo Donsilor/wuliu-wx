@@ -1,0 +1,40 @@
+/* pages/my/remaining_sum/withdraw/choose_card/add_card/index.wxss */
+.tit{
+  height: 76rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 84rpx;
+}
+.list{
+  height: 100rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+.list .right{
+  height: 100rpx;
+  width: 400rpx;
+}
+.ipt{
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+.right .iconyou{
+  margin-left: 10rpx;
+}
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 35rpx;
+  color: #f3f3f3;
+  margin: 60rpx auto;
+  text-align: center;
+  line-height: 80rpx
+}

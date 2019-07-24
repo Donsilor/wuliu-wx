@@ -1,0 +1,141 @@
+/* pages/my/order_manage/index.wxss */
+.tab{
+  height: 80rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  color: #333;
+  background-color: #fff;
+  line-height: 80rpx;
+  margin-bottom: 20rpx;
+}
+.tab .active{
+  color: #ff6305;
+}
+.list{
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.list .list_t{
+  height: 84rpx;
+  line-height: 86rpx;
+  font-size: 26rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.list_t .left{
+  color: #999;
+}
+.list_t .left span{
+  margin-right: 20rpx;
+}
+.list_t .status{
+  color: #ff6305;
+}
+
+.location{
+  font-size: 28rpx;
+  color: #4c4c4c;
+  margin: 20rpx 0;
+}
+.location .from{
+	width: 94rpx;
+}
+.location .line{
+	width: 132rpx;
+	height: 8rpx;
+	background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/home/img_transport%402x.png") no-repeat center;
+	background-size: 100% 100%;
+  margin: 14rpx 20rpx;
+}
+.location .to{
+	max-width: 120rpx;
+  margin: 0 20rpx 0 32rpx;
+}
+.type{
+  font-size: 24rpx;
+  color: #999;
+  padding-top: 6rpx;
+}
+.provider{
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+.provider span{
+  margin-left: 20rpx;
+}
+.list_b{
+  border-top: 1rpx solid #eee;
+  margin-top: 40rpx;
+  padding: 30rpx 0;
+}
+.list_b .total span{
+  font-size: 22rpx;
+  color: #333;
+  margin-left: 20rpx;
+}
+.list_b .total span .font_26{
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.list_b .pay{
+  height: 40rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #666;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  color: #666;
+  text-align: center;
+  line-height: 40rpx;
+  margin: 30rpx 0 0 20rpx;
+}
+.list_b .pay.color{
+  border-color: #ff6305;
+  color: #ff6305;
+}
+
+.empty{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.empty .bg_box{
+  position: absolute;
+  left: 7rpx;
+  top: 20%;
+  width: 734rpx;
+  height: 196rpx;
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/img_blankpages%402x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.empty .text{
+  position: absolute;
+  left: 0;
+  top: 38%;
+  width: 100%;
+  font-size: 26rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.empty .btn{
+  position: absolute;
+  left: 125rpx;
+  top: 52%;
+  width: 500rpx;
+  height: 80rpx;
+  border: 1rpx solid #ff6305;
+  border-radius: 40rpx;
+  font-size: 31rpx;
+  color: #ff6305;
+  text-align: center;
+  line-height: 80rpx;
+}

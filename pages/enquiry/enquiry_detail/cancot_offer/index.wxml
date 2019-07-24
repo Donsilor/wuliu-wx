@@ -1,0 +1,9 @@
+<!--pages/enquiry/enquiry_detail/cancot_offer/index.wxml-->
+<view class="container">
+  <view class="demand">
+    <view class="tit">请提出需要询价人补充哪些信息</view>
+    <textarea class="textarea" placeholder="请填写需要询价人补充的信息"></textarea>
+  </view>
+
+  <view class="btn">提交我的需求</view>
+</view>

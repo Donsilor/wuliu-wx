@@ -1,0 +1,36 @@
+<!--pages/my/offer_manage/index.wxml-->
+<view class="container">
+  <!-- 选择国际快递时显示 -->
+  <view class="tab" wx:if="1">
+    <view class="tab_list {{index == 0 ? 'color' : ''}}" data-index='0' bindtap="chooseTab">国际快递20kg+</view>
+    <view class="tab_list {{index == 1 ? 'color' : ''}}" data-index='1' bindtap="chooseTab">国际快递20kg-</view>
+  </view>
+
+  <!-- 选择国际海运时显示 -->
+  <view class="tab" wx:if="">
+    <view class="tab_list {{index == 0 ? 'color' : ''}}" data-index='0' bindtap="chooseTab">整柜海运</view>
+    <view class="tab_list {{index == 1 ? 'color' : ''}}" data-index='1' bindtap="chooseTab">拼柜海运</view>
+    <view class="tab_list {{index == 2 ? 'color' : ''}}" data-index='2' bindtap="chooseTab">包税海运</view>
+  </view>
+
+  <view class="tit">更多操作请前往PC端</view>
+  <view class="offer">
+    <navigator class="offer_list" wx:for="{{offer}}" wx:key="" url="./offer_detail/index">
+      <view class="location clf">
+        <view class="location_l fl over">{{item.from_a}}</view>
+        <view class="line fl">
+          <view class="time">{{item.time}}</view>
+        </view>
+        <view class="location_r fl over">{{item.to_a}}</view>
+      </view>
+
+      <view class="price clf">
+        <view  class="price_list fl {{ ik == 1?'price_mid':'' }}" wx:for="{{item.priceItem}}" wx:for-index="ik" wx:key="">
+          <view class="measure over">{{item.measure}}</view>
+          <view class="price_numb over">￥{{item.price}}/kg</view>
+          <view class="line_box"></view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

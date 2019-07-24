@@ -1,0 +1,53 @@
+/* pages/my/order_manage/receive/index.wxss */
+.container{
+  padding-top: 20rpx;
+}
+.list{
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #333;
+}
+.list .ipt{
+  width: 400rpx;
+  height: 90rpx;
+  text-align: right;
+}
+
+.box{
+  background-color: #fff;
+  padding-bottom: 30rpx;
+}
+.textarea{
+  width: 690rpx;
+  height: 282rpx;
+  border: 1rpx solid #ddd;
+  margin: 0 auto;
+  font-size: 30rpx;
+  color: #333;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 60rpx auto;
+}
+
+.margin_bottom{
+  margin-bottom: 20rpx;
+}
+.no_border{
+  border: none;
+}

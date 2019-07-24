@@ -5,16 +5,16 @@
       <view class="text">免费询价</view>
       <view class="text">享专业方案定制/报价</view>
     </view>
-    <view class="btn">
+    <navigator class="btn" url="./lightning_enquiry/index">
       <span class="icon">
         <i class="fl iconfont iconshandian"></i>
       </span>
       <span>闪电询价</span>
-    </view>
+    </navigator>
   </view>
 
   <view class="enquiry">
-    <view class="enquiry_list" wx:for="{{enquiry}}" wx:key="">
+    <navigator class="enquiry_list" wx:for="{{enquiry}}" wx:key="" url="./enquiry_detail/index">
       <view class="location clf">
         <view class="location_l fl over">{{item.from_a}}</view>
         <view class="line fl"></view>
@@ -38,6 +38,6 @@
         <view class="fl date_r">{{item.time}}</view>
         <view class="fr">已获报价 <span>{{item.acquire}}</span></view>
       </view>
-    </view>
+    </navigator>
   </view>
 </view>

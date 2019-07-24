@@ -1,0 +1,58 @@
+/* pages/my/amend/attestation/index.wxss */
+.tit{
+  height: 76rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  line-height: 82rpx;
+  font-size: 28rpx;
+  color: #999; 
+}
+.ipt_box{
+  height: 100rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+}
+.ipt{
+  height: 100rpx;
+  color: #333;
+}
+
+.wrap{
+  height: 410rpx;
+  background-color: #fff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.wrap .uploading{
+  width: 690rpx;
+  height: 350rpx;
+  background-color: #f5f5f5;
+  padding-top: 60rpx;
+  box-sizing: border-box;
+}
+.wrap .bg_box{
+  width: 150rpx;
+  height: 126rpx;
+  background: url("https://szdbi.oss-cn-shenzhen.aliyuncs.com/guojiwuliu/icon_upimg%402x.png") no-repeat center;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.wrap .text{
+  font-size: 26rpx;
+  color: #999;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.btn{
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 5rpx;
+  font-size: 31rpx;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 60rpx auto;
+}

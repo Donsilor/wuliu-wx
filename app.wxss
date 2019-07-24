@@ -3,14 +3,20 @@
 
 /*html5 reset*/
 ul, li, ol {
-    list-style: none
+    list-style: none;
 }
 h1, h2, h3, h4, h5, h6, em, i{
     font-style: normal;
+    font-size: 100%;
 }
-.hide{display:none}
+.hide{
+  display:none;
+}
+input{
+  outline: none;
+}
 .fl {
-    float:left
+    float:left;
 }
 .fr {
     float:right;
@@ -32,12 +38,12 @@ h1, h2, h3, h4, h5, h6, em, i{
 /* 字体图标 */
 @font-face {
   font-family: 'iconfont';  /* project id 1299167 */
-  src: url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.eot');
-  src: url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.woff2') format('woff2'),
-  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_1299167_u2kuc7b5ab.svg#iconfont') format('svg');
+  src: url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.eot');
+  src: url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1299167_r6fb8d80dd.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -48,21 +54,41 @@ h1, h2, h3, h4, h5, h6, em, i{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.iconshandian:before {
-  content: "\e60d";
+
+
+.icondianhua:before {
+  content: "\e680";
 }
 
 .iconyduidunpaishixin:before {
   content: "\e67e";
 }
 
+.iconshandian:before {
+  content: "\e60d";
+}
+
 .iconzhangdan:before {
   content: "\e611";
+}
+
+.iconshoucang:before {
+  content: "\e621";
 }
 
 .iconyou:before {
   content: "\e63d";
 }
+
+.iconkefu2:before {
+  content: "\e610";
+}
+
+.iconstar:before {
+  content: "\e622";
+}
+
+
 
 /* 引入字体文件 */
 @font-face{
@@ -79,3 +105,31 @@ page{
   font-family: PingFangM, Microsoft Yahei;
 }
 
+/* 单选按钮 */
+
+.isShow .circle{
+  position: relative;
+  width: 26rpx;
+  height: 26rpx;
+  border: 1rpx solid #aaa;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  box-sizing: border-box;
+}
+.isShow .icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 18rpx;
+  height: 18rpx;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+.active .circle{
+  border-color: #ff6305;
+}
+.active .icon{
+  background-color: #ff6305;
+}

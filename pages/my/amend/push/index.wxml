@@ -1,0 +1,52 @@
+<!--pages/my/amend/push/index.wxml-->
+<view class="container">
+  <view class="tit">请设置需要微信公众号推送的询价线路</view>
+  <view class="list">
+    <view class="fl">整柜海运推送</view>
+    <view class="fr">
+      <switch checked="true"></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">拼柜海运推送</view>
+    <view class="fr">
+      <switch></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">包税海运推送</view>
+    <view class="fr">
+      <switch checked="true"></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">国际空运推送</view>
+    <view class="fr">
+      <switch></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">国际快递推送</view>
+    <view class="fr">
+      <switch></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">国际小包推送</view>
+    <view class="fr">
+      <switch checked="true"></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">中欧班列推送</view>
+    <view class="fr">
+      <switch checked="true"></switch>
+    </view>
+  </view>
+  <view class="list">
+    <view class="fl">国内专线推送</view>
+    <view class="fr">
+      <switch></switch>
+    </view>
+  </view>
+</view>

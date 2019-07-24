@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 36,
 			"list": [
 				{
 					"id": -1,
@@ -94,6 +94,209 @@
 					"id": -1,
 					"name": "提现",
 					"pathName": "pages/my/remaining_sum/withdraw/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择银行卡",
+					"pathName": "pages/my/remaining_sum/withdraw/choose_card/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "绑定银行卡",
+					"pathName": "pages/my/remaining_sum/withdraw/choose_card/add_card/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "询价大厅详情",
+					"pathName": "pages/enquiry/enquiry_detail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "闪电报价",
+					"pathName": "pages/enquiry/enquiry_detail/lightning_offer/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "不能报价",
+					"pathName": "pages/enquiry/enquiry_detail/cancot_offer/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "闪电询价",
+					"pathName": "pages/enquiry/lightning_enquiry/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报价详情",
+					"pathName": "pages/offer/offer_detail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "闪电下单",
+					"pathName": "pages/offer/offer_detail/lightning_order/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "下单成功",
+					"pathName": "pages/offer/offer_detail/lightning_order/succeed/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改资料",
+					"pathName": "pages/my/amend/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "我的收藏",
+					"pathName": "pages/my/collect/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的询价",
+					"pathName": "pages/my/my_enquiry/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "我的订单",
+					"pathName": "pages/my/my_order/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单详情",
+					"pathName": "pages/my/my_order/order_detail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 22,
+					"name": "支付订单",
+					"pathName": "pages/my/my_order/order_detail/pay/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付订单成功",
+					"pathName": "pages/my/my_order/order_detail/pay/succeed/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "货物未送达",
+					"pathName": "pages/my/my_order/order_detail/send_back/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单管理",
+					"pathName": "pages/my/order_manage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 26,
+					"name": "订单详情（物流",
+					"pathName": "pages/my/order_manage/order_detail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 27,
+					"name": "已收到货物",
+					"pathName": "pages/my/order_manage/receive/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 28,
+					"name": "货物未送达",
+					"pathName": "pages/my/order_manage/undelivered/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改邮箱",
+					"pathName": "pages/my/amend/amend_email/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改手机号",
+					"pathName": "pages/my/amend/amend_tel/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改手机号-下一步",
+					"pathName": "pages/my/amend/amend_tel/finish/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业认证",
+					"pathName": "pages/my/amend/attestation/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业认证-等待",
+					"pathName": "pages/my/amend/attestation/wait/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业认证-完成",
+					"pathName": "pages/my/amend/attestation/finish/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 35,
+					"name": "推送设置",
+					"pathName": "pages/my/amend/push/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报价管理",
+					"pathName": "pages/my/offer_manage/index",
 					"query": "",
 					"scene": null
 				}

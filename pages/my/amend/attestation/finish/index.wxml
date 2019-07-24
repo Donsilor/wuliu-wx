@@ -1,0 +1,7 @@
+<!--pages/my/amend/attestation/finish/index.wxml-->
+<view class="container">
+  <view class="icon"></view>
+  <view class="tit">您完成企业认证</view>
+
+  <view class="finish">返回</view>
+</view>

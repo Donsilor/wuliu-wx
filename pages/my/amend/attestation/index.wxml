@@ -1,0 +1,17 @@
+<!--pages/my/amend/attestation/index.wxml-->
+<view class="container">
+  <view class="tit">统一社会信用代码</view>
+  <view class="ipt_box">
+    <input class="ipt" placeholder="请输入统一社会信用代码" placeholder-style="color: #333"></input>
+  </view>
+  <view class="tit">营业执照照片</view>
+
+  <view class="wrap">
+    <view class="uploading">
+      <view class="bg_box"></view>
+      <view class="text">点击上传 营业执照照片</view>
+    </view>
+  </view>
+
+  <view class="btn">提交审核</view>
+</view>

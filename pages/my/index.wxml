@@ -99,7 +99,7 @@
   <!-- 物流商 -->
   <view class="my merchant" wx:if="1">
     <view class="margin_bottom">
-      <view class="list clf">
+      <navigator class="list clf" url="./order_manage/index">
         <view class="fl left">
           <span class="fl icon icon_manage"></span>
         </view>
@@ -107,9 +107,9 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
-      <view class="list clf">
+      <navigator class="list clf" url="./my_order/index">
         <view class="fl left">
           <span class="fl icon icon_order"></span>
         </view>
@@ -117,9 +117,9 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
-      <view class="list clf">
+      <navigator class="list clf" url="./my_offer/index">
         <view class="fl left">
           <span class="fl icon icon_offer"></span>
         </view>
@@ -127,9 +127,9 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
-      <view class="list clf">
+      <navigator class="list clf" url="./my_enquiry/index">
         <view class="fl left">
           <span class="fl icon icon_enquiry"></span>
         </view>
@@ -137,9 +137,9 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
-      <view class="list clf">
+      <navigator class="list clf" url="./collect/index">
         <view class="fl left">
           <span class="fl icon icon_collect"></span>
         </view>
@@ -147,7 +147,7 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
     </view>
 
     <view class="margin_bottom">
@@ -213,7 +213,7 @@
     </view>
 
     <view class="margin_bottom">
-      <view class="list clf">
+      <navigator class="list clf" url="./amend/index">
         <view class="fl left">
           <span class="fl icon icon_amend"></span>
         </view>
@@ -221,7 +221,7 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
       <view class="list clf">
         <view class="fl left">

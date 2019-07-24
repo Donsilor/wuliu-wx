@@ -1,0 +1,112 @@
+<!--pages/enquiry/lightning_enquiry/index.wxml-->
+<view class="container">
+  <view class="enquiry">
+      <view class="from clf">
+        <view class="icon fl">始</view>
+        <input class="text" class="ipt" placeholder="请输入起始地城市"></input>
+      </view>
+      <view class="to clf">
+        <view class="icon fl">收</view>
+        <input class="text" class="ipt" placeholder="请输入目的地城市"></input>
+      </view>   
+    </view>
+    
+    <view class="pull_in">
+      <view class="list clf">
+        <view class="left fl">运输渠道</view>
+        <view class="right fl {{array_i =='-1' ? '' : 'active'}}">
+          <picker bindchange="bindPickerChange" value="{{array_i}}" range="{{array}}">
+          <view class="picker">
+
+            <view class="fl" wx:if="{{array_i =='-1'}}">请选择</view>{{array[array_i]}}
+            <i class="fr iconfont iconyou"></i>
+          </view>
+       
+        </picker>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">产品品名</view>
+        <view class="right fl">
+          <input class="ipt fl" placeholder="请输入产品品名" placeholder-style="color:#999;"></input>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">产品类型</view>
+        <view class="right fl {{type_i =='-1' ? '' : 'active'}}">
+          <picker bindchange="bindPickerType" value="{{type_i}}" range="{{type}}">
+          <view class="picker">
+            <view class="fl" wx:if="{{type_i =='-1'}}">请选择</view>{{type[type_i]}}
+            <i class="fr iconfont iconyou"></i>
+          </view>
+        </picker>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">货物重量</view>
+        <view class="right fl">
+          <input class="ipt fl" placeholder="请输入货物重量，如10kg" placeholder-style="color:#999;"></input>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">货物体积</view>
+        <view class="right fl">
+          <input class="ipt fl" placeholder="请输入货物体积，如60*40*50" placeholder-style="color:#999;"></input>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">发货时间</view>
+        <view class="right fl {{date ? 'active' : ''}}">
+          <picker mode="date" bindchange="bindDateChange" value="{{date}}" start="2018-09-01" end="2020-10-01">
+          <view class="picker">
+            <view class="fl" wx:if="{{!date}}">请选择</view>{{date}}
+            <i class="fr iconfont iconyou"></i>
+          </view>
+        </picker>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">收件类别</view>
+        <view class="right fl {{typeTwo_i =='-1' ? '' : 'active'}}">
+          <picker bindchange="bindPickerTypeTwo" value="{{typeTwo_i}}" range="{{typeTwo}}">
+          <view class="picker">
+            <view class="fl" wx:if="{{typeTwo_i =='-1'}}">请选择</view>{{typeTwo[typeTwo_i]}}
+            <i class="fr iconfont iconyou"></i>
+          </view>
+        </picker>
+        </view>
+      </view>
+
+      <view class="list clf">
+        <view class="left fl">运输方式</view>
+        <view class="right fl">
+          <view class="fl clf isShow {{isChoose_a == true ? 'active' : ''}}" bindtap="isShow" data-type='type_one'>
+            <view class="fl circle">
+              <view class="icon"></view>
+            </view>
+            <view class="fl">双清包税</view>
+          </view>
+
+          <view class="fl clf isShow margin_left {{isChoose_b == true ? 'active' : ''}}" bindtap="isShow" data-type='type_two'>
+            <view class="fl circle">
+              <view class="icon"></view>
+            </view>
+            <view class="fl">VAT退税</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="list">
+        <view class="left">备注</view>
+      </view>
+      <textarea class="textarea" placeholder="请简单描述您要运输的物品，以及其他需求" placeholder-style="color:#999;"></textarea>
+    </view>
+
+    <view class="btn">发布我的询价</view>
+</view>

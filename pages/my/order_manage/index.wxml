@@ -1,0 +1,59 @@
+<!--pages/my/order_manage/index.wxml-->
+<view class="container">
+  <view class="tab">
+    <view class="tab_list {{index == 0 ? 'active' : ''}}" data-index="0" bindtap="chooseTab">全部订单</view>
+    <view class="tab_list {{index == 1 ? 'active' : ''}}" data-index="1" bindtap="chooseTab">待付款</view>
+    <view class="tab_list {{index == 2 ? 'active' : ''}}" data-index="2" bindtap="chooseTab">待出货</view>
+    <view class="tab_list {{index == 3 ? 'active' : ''}}" data-index="3" bindtap="chooseTab">待确认</view>
+    <view class="tab_list {{index == 4 ? 'active' : ''}}" data-index="4" bindtap="chooseTab">已完成</view>
+  </view>
+
+  <view>
+    <view class="list" wx:for="{{my_order}}" wx:key="">
+      <view class="list_t">
+        <view class="fl left">
+          <span>{{item.date}}</span>        
+          <span>{{item.time}}</span>        
+        </view>
+        <view class="fr status">{{item.status}}</view>
+      </view>
+
+      <view class="location clf">
+        <span class="from fl over">{{item.from_a}}</span>
+        <span class="line fl"></span>
+        <span class="to fl over">{{item.to_a}}</span>
+        <view class="type">{{item.type}}</view>
+      </view>
+      <view class="provider">下单人：<span>{{item.user}}</span><span>{{item.tel}}</span></view>
+      <view class="provider">订单号：<span>{{item.numb}}</span></view>
+
+      <view class="list_b">
+        <view class="total clf">
+          <view class="fr clf">
+            <span>结算重： <i wx:if="{{item.weight}}">{{item.weight}}kg</i><i wx:else>—</i></span>
+            <span>合计： <i class="font_26" wx:if="{{item.total}}">￥{{item.total}}</i><i wx:else>—</i></span>
+          </view>
+        </view>
+        <!-- 根据状态判断显示隐藏 -->
+        <view class="control clf">
+          <view class="fr">
+            <view class="pay fl color">申诉</view>
+            <view class="pay fl color">已收到货物</view>
+            <view class="pay fl color">货物已发出</view>
+            <view class="pay fl">货物未送达</view>
+            <view class="pay fl color">货物已送达</view>
+            <view class="pay fl color">已收到货物</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 我的订单为空时显示 -->
+  <view class="empty" wx:if="{{my_enquiry == ''}}">
+    <view class="bg_box"></view>
+    <view class="text">您还没有询价信息</view>
+    <view class="btn">闪电询价</view>
+  </view>
+</view>
+

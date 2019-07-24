@@ -1,0 +1,57 @@
+<!--pages/my/order_manage/receive/index.wxml-->
+<view class="container">
+  <view class="list clf">
+    <view class="fl left">运单号</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入运单号" placeholder-style="color: #999"></input>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="fl left">转单号</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入转单号" placeholder-style="color: #999"></input>
+    </view>
+  </view>
+  <view class="list clf margin_bottom">
+    <view class="fl left">尾端派送</view>
+    <view class="fr right">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="fr picker">
+            <view class="fl" wx:if="{{index =='-1'}}">请选择</view>{{array[index]}}
+            <i class="iconfont iconyou" wx:if="{{array[index]}} == true"></i>
+          </view>
+        </picker>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="fl left">货物实重</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入货物实重" placeholder-style="color: #999"></input>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="fl left">体积重</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入体积重" placeholder-style="color: #999"></input>
+    </view>
+  </view>
+  <view class="list clf margin_bottom">
+    <view class="fl left">结算重</view>
+    <view class="fr right">
+      <input class="ipt fl" placeholder="请输入结算重" placeholder-style="color: #999"></input>
+    </view>
+  </view>
+  <view class="list clf">
+    <view class="fl left">附加费用</view>
+    <view class="fr right">0元</view>
+  </view>
+  <view class="list clf no_border">
+    <view class="fl left">附加费用说明</view>
+  </view>
+
+  <view class="box">
+    <textarea class="textarea" placeholder="请输入附加费用说明" placeholder-style="color: #999"></textarea>
+  </view>
+
+  <view class="btn">确认货物信息</view>
+</view>
