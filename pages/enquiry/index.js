@@ -1,4 +1,5 @@
 // pages/enquiry/index.js
+var util = require('../../utils/util.js');
 Page({
 
   /**

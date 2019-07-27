@@ -20,7 +20,7 @@
 
         <view class="text clf">
           <span class="fl">需求：</span>
-          <span class="demand fl over">{{item.demand}}</span>
+          <span class="demand_r fl over">{{item.demand}}</span>
         </view>
         <view class="text clf">
           <span class="fl">产品品名：</span>
@@ -38,6 +38,33 @@
         <view class="text clf">
           <span class="remark fl">{{item.remark}}</span>
         </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 信息不足无法报价时所填的信息，有则显示么有隐藏 -->
+  <view class="demand" wx-if="1">
+    <view class="tit">收到的完成需求（3条）</view>
+    <view class="box">
+      <view class="list">
+        <view class="company clf">
+          <view class="fl name over">深圳国际物流公司</view>
+          <view class="fr">
+            <span class="data">2019-05-16</span>
+            <span class="time">13:56:52</span>
+          </view>
+        </view>
+        <view class="detail">请问具体尺寸是多少？物品重量情况？</view>
+      </view>
+      <view class="list">
+        <view class="company clf">
+          <view class="fl name over">深圳国际物流公司</view>
+          <view class="fr">
+            <span class="data">2019-05-16</span>
+            <span class="time">13:56:52</span>
+          </view>
+        </view>
+        <view class="detail">具体是什么点子产品？麻烦详细描述下</view>
       </view>
     </view>
   </view>

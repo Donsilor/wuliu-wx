@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/rigist/index",
+    "pages/rigist/next/index",
     "pages/index/index",
     "pages/enquiry/index",
     "pages/enquiry/enquiry_detail/index",

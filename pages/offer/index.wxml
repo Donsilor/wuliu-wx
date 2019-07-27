@@ -1,7 +1,7 @@
 <!--pages/offer/index.wxml-->
 <view class="container">
 <swiper autoplay= none class="tab" bindchange="bindChange">
-  <swiper-item class="fl swiper_item" wx:for="{{tab_item}}" wx:key="" wx:for-index="tab_i">
+  <swiper-item class="fl swiper_item" wx:for="{{tab_item}}" wx:key="">
     <view class="tab_list">
       <span>{{item}}</span>
       <span class="line"></span>

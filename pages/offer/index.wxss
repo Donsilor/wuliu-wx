@@ -27,7 +27,7 @@
   background-color: #fff;
   border-radius: 2rpx;
 }
-.active .tab_list .line{
+.active .line{
   background-color: #ff6305;
 }
 .search{
@@ -113,6 +113,7 @@
 .offer_list .location{
   height: 106rpx;
   line-height: 106rpx;
+  font-weight: bold;
   font-size: 30rpx;
   color: #333;
 }
@@ -139,6 +140,7 @@
   transform: translateX(-50%);
   font-size: 22rpx;
   color: #666;
+  font-weight: normal;
 }
 
 .price{

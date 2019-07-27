@@ -1,0 +1,48 @@
+/* pages/rigist/next/index.wxss */
+.container{
+  padding-top: 80rpx;
+}
+.title{
+  font-weight: bold;
+  font-size: 30rpx;
+  color: #333;
+  text-align: center
+}
+.tit{
+  font-size: 26rpx;
+  color: #666;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.box{
+  margin: 60rpx auto;
+  background-color: #fff;
+  border: 1rpx solid #ddd;
+}
+.list{
+  height: 100rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  line-height: 100rpx;
+}
+.list:not(:last-of-type){
+  border-bottom: 1rpx solid #ddd;
+}
+.ipt{
+  width: 500rpx;
+  height: 100rpx;
+  text-align: right;
+}
+
+.btn{
+  width: 500rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 6rpx;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 140rpx auto;
+}

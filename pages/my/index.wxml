@@ -7,6 +7,7 @@
     <view class="right fl">
       <view class="right_t clf">
         <view class="name fl over">深圳板栗物流有限公司</view>
+        <!-- 根据个人或物流商登录显示隐藏 -->
         <view class="authentication fl">已认证</view>
       </view>
       <view class="tel">18617179617</view>
@@ -24,7 +25,7 @@
   </view>
 
   <!-- 个人 -->
-  <view class="my personal" wx:if= "">
+  <view class="my personal" wx:if= "1">
     <view class="list clf">
       <view class="fl left">
         <span class="fl icon icon_order"></span>
@@ -97,7 +98,7 @@
   </view>
 
   <!-- 物流商 -->
-  <view class="my merchant" wx:if="1">
+  <view class="my merchant" wx:if="">
     <view class="margin_bottom">
       <navigator class="list clf" url="./order_manage/index">
         <view class="fl left">
@@ -119,7 +120,7 @@
         </span>
       </navigator>
 
-      <navigator class="list clf" url="./my_offer/index">
+      <view class="list clf">
         <view class="fl left">
           <span class="fl icon icon_offer"></span>
         </view>
@@ -127,7 +128,7 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </navigator>
+      </view>
 
       <navigator class="list clf" url="./my_enquiry/index">
         <view class="fl left">
@@ -151,7 +152,7 @@
     </view>
 
     <view class="margin_bottom">
-      <view class="list clf">
+      <navigator class="list clf" url="./offer_manage/index">
         <view class="fl left">
           <span class="fl icon icon_air"></span>
         </view>
@@ -159,7 +160,7 @@
         <span class="fr back">
           <i class="iconfont iconyou"></i>
         </span>
-      </view>
+      </navigator>
 
       <view class="list clf">
         <view class="fl left">

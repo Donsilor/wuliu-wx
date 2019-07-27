@@ -40,6 +40,7 @@ page{
   height: 144rpx;
 }
 .location{
+  font-weight: bold;
   font-size: 28rpx;
   line-height: 76rpx;
   color: #4c4c4c;

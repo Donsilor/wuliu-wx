@@ -6,7 +6,44 @@ Page({
    */
   data: {
     // 运输渠道
-    array: ['国际空运', '国际快递', '国际海运', '国际小包', '中欧班列'],
+    array: [
+      {
+        channel: '国际空运',
+        checked: false,
+      },
+      {
+        channel: '国内专线',
+        checked: false,
+      },
+      {
+        channel: '国际快递20kg+',
+        checked: false,
+      },
+      {
+        channel: '国际快递20kg-',
+        checked: false,
+      },
+      {
+        channel: '整柜海运',
+        checked: false,
+      },
+      {
+        channel: '拼柜海运',
+        checked: false,
+      },
+      {
+        channel: '包税海运',
+        checked: false,
+      },
+      {
+        channel: '中欧班列',
+        checked: false,
+      },
+      {
+        channel: '国际小包',
+        checked: false,
+      }
+    ],
     // 产品类型
     type: ['衣物', '电器', '日杂', '食品', '中欧班列'],
     // 发货时间
@@ -20,10 +57,11 @@ Page({
     isChoose_b: false,
   },
   // 选择运输渠道
-  bindPickerChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
+  chooseChannel: function(e){
+    var i = e.currentTarget.dataset.index,
+      checked = `array[${i}].checked`;
     this.setData({
-      array_i: e.detail.value
+      [checked]: !this.data.array[i].checked
     })
   },
   // 选择产品类型

@@ -1,0 +1,67 @@
+/* pages/rigist/index.wxss */
+.container{
+  padding-top: 100rpx;
+}
+.tit{
+  font-size: 26rpx;
+  color: #666;
+  text-align: center;
+}
+
+.btn_box{
+  width: 550rpx;
+  height: 76rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 50rpx auto;
+}
+.btn{
+  width: 260rpx;
+  height: 76rpx;
+  border: 1rpx solid #ff6305;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  color: #ff6305;
+  text-align: center;
+  line-height: 76rpx;
+}
+.btn.active{
+  background-color: #ff6305;
+  color: #fff;
+}
+.ipt_box{
+  width: 610rpx;
+  margin: 100rpx auto;
+}
+.list{
+  height: 100rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.ipt_1{
+  height: 100rpx;
+}
+.ipt_2{
+  height: 100rpx;
+  width: 400rpx;
+}
+.verify{
+  color: #999;
+  font-size: 26rpx;
+}
+.verify.color{
+  color: #ff6305;
+}
+.next{
+  width: 500rpx;
+  height: 80rpx;
+  background-color: #ff6305;
+  border-radius: 6rpx;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 140rpx auto;
+}

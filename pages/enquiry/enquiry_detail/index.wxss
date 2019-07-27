@@ -32,6 +32,7 @@
 	margin-bottom: 20rpx;
 }
 .location{
+  font-weight: bold;
   font-size: 28rpx;
   color: #4c4c4c;
 }
@@ -56,7 +57,7 @@
   margin-top: 20rpx;
 }
 
-.enquiry_list .demand{
+.enquiry_list .demand_r{
   max-width: 500rpx;
 }
 
@@ -82,8 +83,50 @@
   margin-top: 30rpx;
 }
 
+.demand{
+  background-color: #fff;
+  padding: 0 30rpx 30rpx;
+  box-sizing: border-box;
+  border-bottom: 20rpx solid #f5f5f5;
+}
+.demand .tit{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #333;
+  border-bottom: 1rpx solid #ddd;
+}
+.demand .box{
+  padding: 0 10rpx 0 20rpx;
+  box-sizing: border-box;
+}
+.demand .list{
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ddd;
+}
+.demand .company{
+  font-size: 24rpx;
+  color: #666;
+}
+.demand .company .name{
+  max-width: 300rpx;
+}
+.demand .company .data{
+  margin-right: 10rpx;
+  font-size: 22rpx;
+}
+.demand .company .time{
+  font-size: 22rpx;
+}
+.demand .detail{
+  font-size: 24rpx;
+  color: #333;
+  margin-top: 20rpx;
+}
+
+
 .all_offer{
-  padding: 30rpx;
+  padding: 0 30rpx 30rpx;
   box-sizing: border-box;
   background-color: #fff;
 }

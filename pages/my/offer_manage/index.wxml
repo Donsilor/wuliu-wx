@@ -15,7 +15,7 @@
 
   <view class="tit">更多操作请前往PC端</view>
   <view class="offer">
-    <navigator class="offer_list" wx:for="{{offer}}" wx:key="" url="./offer_detail/index">
+    <view class="offer_list" wx:for="{{offer}}" wx:key="">
       <view class="location clf">
         <view class="location_l fl over">{{item.from_a}}</view>
         <view class="line fl">
@@ -31,6 +31,6 @@
           <view class="line_box"></view>
         </view>
       </view>
-    </navigator>
+    </view>
   </view>
 </view>

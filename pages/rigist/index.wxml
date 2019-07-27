@@ -1,0 +1,18 @@
+<!--pages/rigist/index.wxml-->
+<view class="container">
+  <view class="tit">选择您要注册账户的类型</view>
+  <view class="btn_box">
+    <view class="btn {{type == 1 ? 'active' : ''}}" data-index ="1" bindtap="chooseType">我是普通用户</view>
+    <view class="btn {{type == 2 ? 'active' : ''}}" data-index ="2" bindtap="chooseType">我是物流商家</view>
+  </view>
+  <view class="ipt_box">
+    <view class="list">
+      <input class="ipt_1" placeholder="手机号码" placeholder-style="color: #999" bindinput="bindinput"></input>
+    </view>
+    <view class="list clf">
+      <input class="fl ipt_2" placeholder="短信验证码" placeholder-style="color: #999"></input>
+      <span class="fr verify {{ipt_1 ? 'color' : ''}}">发送验证码</span>
+    </view>
+    <view class="next" bindtap="next">下一步</view>
+  </view>
+</view>

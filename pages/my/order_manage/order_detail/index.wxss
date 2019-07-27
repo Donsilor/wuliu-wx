@@ -33,6 +33,7 @@
 }
 
 .location{
+  font-weight: bold;
   font-size: 28rpx;
   color: #4c4c4c;
   margin: 30rpx 0 40rpx;

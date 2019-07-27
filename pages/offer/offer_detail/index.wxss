@@ -33,6 +33,7 @@ page{
 }
 .location{
   height: 94rpx;
+  font-weight: bold;
   font-size: 28rpx;
   color: #4c4c4c;
   line-height: 76rpx;

@@ -12,17 +12,12 @@
     </view>
     
     <view class="pull_in">
-      <view class="list clf">
+      <view class="list clf more_choose">
         <view class="left fl">运输渠道</view>
-        <view class="right fl {{array_i =='-1' ? '' : 'active'}}">
-          <picker bindchange="bindPickerChange" value="{{array_i}}" range="{{array}}">
-          <view class="picker">
-
-            <view class="fl" wx:if="{{array_i =='-1'}}">请选择</view>{{array[array_i]}}
-            <i class="fr iconfont iconyou"></i>
-          </view>
-       
-        </picker>
+        <view class="right fl">
+            <view class="chenked clf">
+              <view class="list_c fl {{item.checked ? 'active' : ''}}" wx:for="{{array}}" wx:for-index="idx" wx:key="" data-index='{{idx}}' bindtap="chooseChannel">{{item.channel}}</view>
+            </view>
         </view>
       </view>
 

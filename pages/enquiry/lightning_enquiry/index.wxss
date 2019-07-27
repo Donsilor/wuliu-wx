@@ -110,3 +110,27 @@
   width: 100%;
   height: 90rpx;
 }
+
+.pull_in .more_choose{
+  height: auto;
+}
+.pull_in .more_choose .right{
+  height: auto;
+  padding: 30rpx 0 10rpx;
+}
+.pull_in .more_choose .list_c{
+  height: 40rpx;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  padding: 0 10rpx;
+  border: 1rpx solid #eee;
+  background-color: #eee;
+  border-radius: 6rpx;
+  color: #333;
+  margin: 0 30rpx 30rpx 0;
+}
+.pull_in .more_choose .right .active{
+  background-color: #fff;
+  border-color: #ff6305;
+  color: #ff6305;
+}

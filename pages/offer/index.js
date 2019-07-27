@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    index: '',
     tab_item: ['国际空运', '国际快递', '国际海运', '中欧班列', '国内专线', '国际小包'],
     // tab_item: [
     //   { type: '国际空运' },
@@ -81,7 +82,9 @@ Page({
     }
   },
   bindChange: function (e) {
-    console.log(e)
+    this.setData({
+      index: e.detail.current
+    })
   },
   /**
    * 生命周期函数--监听页面显示

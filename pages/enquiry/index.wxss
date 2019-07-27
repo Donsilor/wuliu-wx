@@ -41,6 +41,7 @@
 	margin-bottom: 20rpx;
 }
 .location{
+  font-weight: bold;
   font-size: 28rpx;
   color: #4c4c4c;
 }
